@@ -93,6 +93,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Covariance_Net3.5\Covariance_Net3.5.csproj">
+      <Project>{03bb0ff6-b347-471d-b62f-d0f7120a50ef}</Project>
+      <Name>Covariance_Net3.5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Covariance_NET4.5\Covariance_NET4.5.csproj">
+      <Project>{a1269bb6-1940-4b1c-90c0-8fa904859ba6}</Project>
+      <Name>Covariance_NET4.5</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

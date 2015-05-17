@@ -24,5 +24,17 @@ namespace Concepts
         {
             InitializeComponent();
         }
+
+        private void Covariance_Net35_Click(object sender, RoutedEventArgs e)
+        {
+            Covariance_Net3._5.Learning.Learn();
+            
+        }
+
+        private void Covariance_NET45_Click(object sender, RoutedEventArgs e)
+        {
+            Covariance_NET4._5.Learning.Learn();
+            
+        }
     }
 }

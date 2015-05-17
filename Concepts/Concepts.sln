@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concepts", "Concepts\Concepts.csproj", "{EB67CF63-9F2A-40BB-ACF7-EC1969E1370F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covariance_Net3.5", "Covariance_Net3.5\Covariance_Net3.5.csproj", "{03BB0FF6-B347-471D-B62F-D0F7120A50EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covariance_NET4.5", "Covariance_NET4.5\Covariance_NET4.5.csproj", "{A1269BB6-1940-4B1C-90C0-8FA904859BA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB67CF63-9F2A-40BB-ACF7-EC1969E1370F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB67CF63-9F2A-40BB-ACF7-EC1969E1370F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB67CF63-9F2A-40BB-ACF7-EC1969E1370F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB67CF63-9F2A-40BB-ACF7-EC1969E1370F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03BB0FF6-B347-471D-B62F-D0F7120A50EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BB0FF6-B347-471D-B62F-D0F7120A50EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BB0FF6-B347-471D-B62F-D0F7120A50EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BB0FF6-B347-471D-B62F-D0F7120A50EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1269BB6-1940-4B1C-90C0-8FA904859BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1269BB6-1940-4B1C-90C0-8FA904859BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1269BB6-1940-4B1C-90C0-8FA904859BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1269BB6-1940-4B1C-90C0-8FA904859BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

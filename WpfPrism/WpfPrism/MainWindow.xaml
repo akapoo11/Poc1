@@ -2,7 +2,9 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        <StackPanel>
+             <Label HorizontalAlignment="Center" Background="AliceBlue" FontStyle="Normal" FontWeight="Bold" FontSize="14" Content="This is PRISM Example"></Label>
+            <ContentPresenter Content="Placeholder For Header" ></ContentPresenter>
+            <ContentPresenter Content="Placeholder For Foote"></ContentPresenter>
+        </StackPanel>
 </Window>
